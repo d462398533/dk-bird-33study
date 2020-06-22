@@ -57,6 +57,7 @@
 .container .mylove-music .music{
     float: left;
     margin-right: 48px;
+    margin-bottom: 15px;
 }
 .container .mylove-music .music:nth-child(5n){
     /* border: 3px solid; */
