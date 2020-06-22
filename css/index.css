@@ -29,3 +29,14 @@
 /* .container{
     width: 1120px;
 } */
+.sign{
+    width: 1120px;
+    margin: 0 auto;
+    line-height: 2em;
+}
+.sign h2{
+    font-size: 30px;
+}
+.sign .fuhao{
+    border: 1px dotted #ccc;
+}
