@@ -1,4 +1,8 @@
-
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 .title{
     display: none;
 }
@@ -39,4 +43,41 @@
 }
 .sign .fuhao{
     border: 1px dotted #ccc;
+}
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.container .mylove-music{
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+}
+.container .mylove-music .music{
+    float: left;
+    margin-right: 48px;
+}
+.container .mylove-music .music:nth-child(5n){
+    /* border: 3px solid; */
+    margin-right: 0;
+}
+.container h3{
+    margin-top: 15px;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.container .mylove-music .song-title{
+    font-size: 23px;
+    width: 185px;
+    overflow: hidden;
+    white-space: nowrap;	/*规定文本不进行换行*/
+    text-overflow: ellipsis; /*当对象内文本溢出时显示省略标记（...）*/
+}
+.container .mylove-music .singer{
+    color: #666;
+}
+.container .mylove-music .special-issue img{
+    width: 185px;
+    height: 185px;
 }
