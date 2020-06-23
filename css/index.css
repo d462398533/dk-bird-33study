@@ -54,6 +54,9 @@
     padding-bottom: 15px;
     border-bottom: 1px dotted #ccc;
 }
+.container .play-music iframe{
+    width: 1120px;
+}
 .container .mylove-music .music{
     float: left;
     margin-right: 48px;
