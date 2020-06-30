@@ -56,6 +56,7 @@
 }
 .container .play-music iframe{
     width: 1120px;
+    height: 300px;
 }
 .container .mylove-music .music{
     float: left;
